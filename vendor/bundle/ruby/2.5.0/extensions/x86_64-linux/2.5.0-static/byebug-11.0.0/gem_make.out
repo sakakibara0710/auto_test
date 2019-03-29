@@ -1,0 +1,19 @@
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.0/ext/byebug
+/usr/local/rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190315-24957-mmudus.rb extconf.rb
+creating Makefile
+
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR=" install
+/bin/install -c -m 0755 byebug.so ./.gem.20190315-24957-m9q9rb/byebug

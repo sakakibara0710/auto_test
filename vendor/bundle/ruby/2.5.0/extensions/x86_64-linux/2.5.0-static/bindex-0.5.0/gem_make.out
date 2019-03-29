@@ -1,0 +1,15 @@
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/usr/local/rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190315-24957-1upc429.rb extconf.rb
+creating Makefile
+
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /app_test/as/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/bin/install -c -m 0755 cruby.so ./.gem.20190315-24957-1k9cxm7/bindex
